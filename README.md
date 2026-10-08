@@ -1,47 +1,38 @@
-# Bluetooth-Bidirectional-Control
+**`Lab4/Task4-1/report.md`**
 
+```markdown
+# 課題報告：Task 4-1 HC-05 Master/Slave Communication
 
+- **學生姓名**：王奕云 邱子澄
+- **學生學號**：113511109 112511131
+- **完成日期**：2026-10-08
 
-<<<<<<< Updated upstream
-Hi 
+---
 
+### 1. 實驗目標(可參考課程投影片寫法)
+- 完成兩個HC-05之間的收發訊號功能。
+- 利用HC-05接受到的訊號操控LED與馬達。
 
+### 2. 設備與元件
+- Arduino Uno 開發板 x 2
+- 麵包板 x 2
+- USB Type-B 傳輸線 x 2
+- 個人電腦（已安裝 Arduino IDE）x 2
+- 按鈕 x 1
+- LED x 1
+- 限流電阻 x 2
+- HC-05 x 2
+- L293D x 1
+- DC馬達 x 1
+- 可變電阻 x 1
+- 杜邦線
 
-=======
-Communication protocol
+### 3. 操作說明與成果
+1. **準備電路**：負責 Master 與 Slave 端電路的同學分別接連接LED、按鈕、可變電阻、馬達電路，並接上 HC-05 。
+2. **撰寫arduino程式**：兩位同學分別撰寫程式使 HC-05 收發的訊號能控制電路。
+3. **燒錄程式**：上傳 Arduino 程式。
+4. **連接 HC-05 **：設定 HC-05 進入 AT 模式，並將兩個 HC-05 分別對應設為 Master 和 Slave。確認兩邊 HC-05 燈號為連閃兩次停一秒並可以收發另一端的訊號。
+5. **實驗成果**：確認LED會隨按鈕狀態改變亮暗、馬達速度隨可變電阻值改變。
+6. **操作影片**：紀錄實驗過程。
+7. **上傳 GitHub **：兩位同學將程式檔案和影片上傳至自己的分支，由創建 repository 的同學將所有檔案 merge 至 main 。
 
-
-
-Baud rate: 9600
-
-
-
-Master -> Slave
-
-B:1\\n = LED ON
-
-B:0\\n = LED OFF
-
-
-
-Slave -> Master
-
-P:<0-255>\\n = Motor PWM speed
-
-
-
-Student A
-
-Branch: master-firmware
-
-File: Master\_Node/Master\_Node.ino
-
-
-
-Student B
-
-Branch: slave-firmware
-
-File: Slave\_Node/Slave\_Node.ino
-
->>>>>>> Stashed changes
