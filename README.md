@@ -1,7 +1,6 @@
-**`Lab4/Task4-1/report.md`**
+# Bluetooth-Bidirectional-Control
 
-```markdown
-# 課題報告：Task 4-1 HC-05 Master/Slave Communication
+## 課題報告：Task 4-1 HC-05 Master/Slave Communication
 
 - **學生姓名**：王奕云 邱子澄
 - **學生學號**：113511109 112511131
@@ -31,8 +30,7 @@
 1. **準備電路**：負責 Master 與 Slave 端電路的同學分別接連接LED、按鈕、可變電阻、馬達電路，並接上 HC-05 。
 2. **撰寫arduino程式**：兩位同學分別撰寫程式使 HC-05 收發的訊號能控制電路。
 3. **燒錄程式**：上傳 Arduino 程式。
-4. **連接 HC-05 **：設定 HC-05 進入 AT 模式，並將兩個 HC-05 分別對應設為 Master 和 Slave。確認兩邊 HC-05 燈號為連閃兩次停一秒並可以收發另一端的訊號。
+4. **連接 HC-05**：設定 HC-05 進入 AT 模式，並將兩個 HC-05 分別對應設為 Master 和 Slave。確認兩邊 HC-05 燈號為連閃兩次停一秒並可以收發另一端的訊號。
 5. **實驗成果**：確認LED會隨按鈕狀態改變亮暗、馬達速度隨可變電阻值改變。
 6. **操作影片**：紀錄實驗過程。
-7. **上傳 GitHub **：兩位同學將程式檔案和影片上傳至自己的分支，由創建 repository 的同學將所有檔案 merge 至 main 。
-
+7. **上傳 GitHub**：兩位同學將程式檔案和影片上傳至自己的分支，由創建 repository 的同學將所有檔案 merge 至 main 。
