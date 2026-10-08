@@ -1,7 +1,4 @@
-**`Lab4/Task4-1/report.md`**
-
-```markdown
-# 課題報告：Task 4-1 HC-05 Master/Slave Communication
+## 課題報告：Task 4-1 HC-05 Master/Slave Communication
 
 - **學生姓名**：王奕云 邱子澄
 - **學生學號**：113511109 112511131
